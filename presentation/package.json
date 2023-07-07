@@ -1,0 +1,16 @@
+{
+  "name": "presentation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:pdf": "marp react_state_eval.md -o react_state_eval.pdf",
+    "build:html": "marp react_state_eval.md -o react_state_eval.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@marp-team/marp-cli": "^3.0.2"
+  }
+}
